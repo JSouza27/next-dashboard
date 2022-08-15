@@ -9,10 +9,10 @@ type HeadingProps = {
   level?: 1 | 2 | 3 | 4 | 5 | 6
 }
 
-export const Heading = styled('h1').attrs<HeadingProps>(({ level }) => ({
+export const Heading = styled.h1.attrs<HeadingProps>(({ level }) => ({
   as: `h${level}`
 }))<HeadingProps>`
-  ${({ color = "default", size = "medium", fontWeight = 700, lineHeight = 2.4}) => css`
+  ${({ color = "default", size = "medium", fontWeight = 700, lineHeight = 1.5}) => css`
     color: ${theme.colors[color]};
     font-size: ${theme.sizes[size]};
     font-weight: ${fontWeight};
