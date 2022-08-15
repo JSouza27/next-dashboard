@@ -1,3 +1,10 @@
-export default function Home() {
-  return <div>Home</div>
+import Layout from 'components/Layout'
+import UserList from 'template/UserList'
+
+export default function Users() {
+  return (
+    <Layout>
+      <UserList />
+    </Layout>
+  )
 }

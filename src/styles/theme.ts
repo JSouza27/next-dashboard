@@ -2,6 +2,17 @@ export default {
   border: {
     radius: '0.4rem'
   },
+  shadow: {
+    default: '0 0 3.2rem 0 rgb(136 152 170 / 15%)'
+  },
+  sizes: {
+    xsmall: '1.2rem',
+    small: '1.4rem',
+    medium: '1.6rem',
+    large: '2.4rem',
+    xlarge: '3.2rem',
+    xxlarge: '4rem'
+  },
   font: {
     family: "'Nunito Sans', sans-serif",
     semiRegular: 300,
@@ -9,14 +20,6 @@ export default {
     semiBold: 600,
     bold: 700,
     extraBold: 800,
-    sizes: {
-      xsmall: '1.2rem',
-      small: '1.4rem',
-      medium: '1.6rem',
-      large: '1.8rem',
-      xlarge: '2.4rem',
-      xxlarge: '2.8rem'
-    }
   },
   colors: {
     default: '#3c4d69',
