@@ -2,10 +2,6 @@
 
 Preencha os detalhamentos referentes à categoria do seu PR (funcionalidade ou bug) e remova a outra seção.
 
-## Issues de Origem
-
-Adicione o link do card do monday ou a issue do github para está PR
-
 # Funcionalidade / Melhoria
 
 ### Descrição
