@@ -15,6 +15,7 @@ export const HeadContainer = styled.div`
   ${({ theme }) => css`
     border-top-left-radius: ${theme.border.radius};
     border-top-right-radius: ${theme.border.radius};
+    box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%);
     display: flex;
     gap: 3rem;
     padding: 2rem 2.4rem;
