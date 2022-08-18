@@ -1,7 +1,9 @@
+import Button from 'components/Button'
 import { Heading } from 'components/Heading'
 import Table from 'components/Table'
 import Client from 'core/client/Client'
 import * as S from './styles'
+import { Edit } from '@styled-icons/boxicons-solid/'
 
 export default function UserList() {
   const headers = ['Código', 'Nome', 'Idade', 'Ações']
@@ -26,6 +28,9 @@ export default function UserList() {
         <Heading level={3} size='large'>
           Usuários
         </Heading>
+        <Button color='primary' type='button' height='2.8rem' width='8.6rem'>
+          <span>Novo Cliente</span>
+        </Button>
       </S.HeadContainer>
 
       <Table
